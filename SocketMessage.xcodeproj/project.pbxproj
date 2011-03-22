@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266747F0133650D8007E7F0F /* MessageServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 266747EF133650D8007E7F0F /* MessageServer.m */; };
+		266747F3133651A1007E7F0F /* MessageConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 266747F2133651A1007E7F0F /* MessageConnection.m */; };
+		269270871334436E0087FF93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269270861334436E0087FF93 /* UIKit.framework */; };
+		269270891334436E0087FF93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269270881334436E0087FF93 /* Foundation.framework */; };
+		2692708B1334436E0087FF93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2692708A1334436E0087FF93 /* CoreGraphics.framework */; };
+		269270911334436E0087FF93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2692708F1334436E0087FF93 /* InfoPlist.strings */; };
+		269270941334436E0087FF93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 269270931334436E0087FF93 /* main.m */; };
+		269270971334436E0087FF93 /* SocketMessageAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 269270961334436E0087FF93 /* SocketMessageAppDelegate.m */; };
+		2692709A1334436E0087FF93 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 269270981334436E0087FF93 /* MainWindow.xib */; };
+		2692709D1334436E0087FF93 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2692709C1334436E0087FF93 /* RootViewController.m */; };
+		269270A01334436E0087FF93 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2692709E1334436E0087FF93 /* RootViewController.xib */; };
+		269DD9E91335AB080027DA98 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269DD9E71335AB080027DA98 /* ChatViewController.m */; };
+		269DD9EA1335AB080027DA98 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 269DD9E81335AB080027DA98 /* ChatViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		266747EE133650D8007E7F0F /* MessageServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageServer.h; sourceTree = "<group>"; };
+		266747EF133650D8007E7F0F /* MessageServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageServer.m; sourceTree = "<group>"; };
+		266747F1133651A1007E7F0F /* MessageConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageConnection.h; sourceTree = "<group>"; };
+		266747F2133651A1007E7F0F /* MessageConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageConnection.m; sourceTree = "<group>"; };
+		266747F413365F6A007E7F0F /* MessageConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageConnectionDelegate.h; sourceTree = "<group>"; };
+		266747F513366014007E7F0F /* MessageServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageServerDelegate.h; sourceTree = "<group>"; };
+		269270821334436E0087FF93 /* SocketMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		269270861334436E0087FF93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		269270881334436E0087FF93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2692708A1334436E0087FF93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2692708E1334436E0087FF93 /* SocketMessage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocketMessage-Info.plist"; sourceTree = "<group>"; };
+		269270901334436E0087FF93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		269270921334436E0087FF93 /* SocketMessage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocketMessage-Prefix.pch"; sourceTree = "<group>"; };
+		269270931334436E0087FF93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		269270951334436E0087FF93 /* SocketMessageAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketMessageAppDelegate.h; sourceTree = "<group>"; };
+		269270961334436E0087FF93 /* SocketMessageAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketMessageAppDelegate.m; sourceTree = "<group>"; };
+		269270991334436E0087FF93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2692709B1334436E0087FF93 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2692709C1334436E0087FF93 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2692709F1334436E0087FF93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		269DD9E61335AB080027DA98 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		269DD9E71335AB080027DA98 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		269DD9E81335AB080027DA98 /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2692707F1334436E0087FF93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269270871334436E0087FF93 /* UIKit.framework in Frameworks */,
+				269270891334436E0087FF93 /* Foundation.framework in Frameworks */,
+				2692708B1334436E0087FF93 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266747EC13364F9B007E7F0F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				266747F1133651A1007E7F0F /* MessageConnection.h */,
+				266747F2133651A1007E7F0F /* MessageConnection.m */,
+				266747F413365F6A007E7F0F /* MessageConnectionDelegate.h */,
+				266747EE133650D8007E7F0F /* MessageServer.h */,
+				266747EF133650D8007E7F0F /* MessageServer.m */,
+				266747F513366014007E7F0F /* MessageServerDelegate.h */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		269270771334436E0087FF93 = {
+			isa = PBXGroup;
+			children = (
+				2692708C1334436E0087FF93 /* SocketMessage */,
+				269270851334436E0087FF93 /* Frameworks */,
+				269270831334436E0087FF93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		269270831334436E0087FF93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				269270821334436E0087FF93 /* SocketMessage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		269270851334436E0087FF93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				269270861334436E0087FF93 /* UIKit.framework */,
+				269270881334436E0087FF93 /* Foundation.framework */,
+				2692708A1334436E0087FF93 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2692708C1334436E0087FF93 /* SocketMessage */ = {
+			isa = PBXGroup;
+			children = (
+				266747EC13364F9B007E7F0F /* Network */,
+				269270951334436E0087FF93 /* SocketMessageAppDelegate.h */,
+				269270961334436E0087FF93 /* SocketMessageAppDelegate.m */,
+				269270981334436E0087FF93 /* MainWindow.xib */,
+				2692709B1334436E0087FF93 /* RootViewController.h */,
+				2692709C1334436E0087FF93 /* RootViewController.m */,
+				2692709E1334436E0087FF93 /* RootViewController.xib */,
+				269DD9E61335AB080027DA98 /* ChatViewController.h */,
+				269DD9E71335AB080027DA98 /* ChatViewController.m */,
+				269DD9E81335AB080027DA98 /* ChatViewController.xib */,
+				2692708D1334436E0087FF93 /* Supporting Files */,
+			);
+			path = SocketMessage;
+			sourceTree = "<group>";
+		};
+		2692708D1334436E0087FF93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2692708E1334436E0087FF93 /* SocketMessage-Info.plist */,
+				2692708F1334436E0087FF93 /* InfoPlist.strings */,
+				269270921334436E0087FF93 /* SocketMessage-Prefix.pch */,
+				269270931334436E0087FF93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		269270811334436E0087FF93 /* SocketMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269270A31334436E0087FF93 /* Build configuration list for PBXNativeTarget "SocketMessage" */;
+			buildPhases = (
+				2692707E1334436E0087FF93 /* Sources */,
+				2692707F1334436E0087FF93 /* Frameworks */,
+				269270801334436E0087FF93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketMessage;
+			productName = SocketMessage;
+			productReference = 269270821334436E0087FF93 /* SocketMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		269270791334436E0087FF93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Berkshire Software, LLC";
+			};
+			buildConfigurationList = 2692707C1334436E0087FF93 /* Build configuration list for PBXProject "SocketMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 269270771334436E0087FF93;
+			productRefGroup = 269270831334436E0087FF93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269270811334436E0087FF93 /* SocketMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		269270801334436E0087FF93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269270911334436E0087FF93 /* InfoPlist.strings in Resources */,
+				2692709A1334436E0087FF93 /* MainWindow.xib in Resources */,
+				269270A01334436E0087FF93 /* RootViewController.xib in Resources */,
+				269DD9EA1335AB080027DA98 /* ChatViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2692707E1334436E0087FF93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269270941334436E0087FF93 /* main.m in Sources */,
+				269270971334436E0087FF93 /* SocketMessageAppDelegate.m in Sources */,
+				2692709D1334436E0087FF93 /* RootViewController.m in Sources */,
+				269DD9E91335AB080027DA98 /* ChatViewController.m in Sources */,
+				266747F0133650D8007E7F0F /* MessageServer.m in Sources */,
+				266747F3133651A1007E7F0F /* MessageConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2692708F1334436E0087FF93 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269270901334436E0087FF93 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		269270981334436E0087FF93 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269270991334436E0087FF93 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2692709E1334436E0087FF93 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2692709F1334436E0087FF93 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		269270A11334436E0087FF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		269270A21334436E0087FF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		269270A41334436E0087FF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocketMessage/SocketMessage-Prefix.pch";
+				INFOPLIST_FILE = "SocketMessage/SocketMessage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		269270A51334436E0087FF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocketMessage/SocketMessage-Prefix.pch";
+				INFOPLIST_FILE = "SocketMessage/SocketMessage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2692707C1334436E0087FF93 /* Build configuration list for PBXProject "SocketMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269270A11334436E0087FF93 /* Debug */,
+				269270A21334436E0087FF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269270A31334436E0087FF93 /* Build configuration list for PBXNativeTarget "SocketMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269270A41334436E0087FF93 /* Debug */,
+				269270A51334436E0087FF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 269270791334436E0087FF93 /* Project object */;
+}
